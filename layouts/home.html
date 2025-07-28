@@ -16,7 +16,6 @@
     {{ with .Err }}
       {{ errorf "%s" . }}
     {{ else with .Value }}
-      media type: {{ .MediaType.Type }}
       <pre>{{ .Content }}</pre>
     {{ else }}
       {{ errorf "Unable to get remote resource %q" $url }}

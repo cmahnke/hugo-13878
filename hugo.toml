@@ -3,3 +3,6 @@ languageCode = 'en-US'
 title = 'Hugo GitHub Issue #13878'
 
 disableKinds = ['page','rss','section','sitemap','taxonomy','term']
+
+[caches.getresource]
+maxAge = 0
